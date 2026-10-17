@@ -36,6 +36,7 @@ services:
       start_period: 10s
     volumes:
       - db_data:/var/lib/mysql
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
 
 volumes:
   db_data:

@@ -5,6 +5,7 @@
 /var/cache/*
 !/var/cache/.gitkeep
 .phpunit.result.cache
+.phpunit.cache
 .idea/
 .vscode/
 *.log
